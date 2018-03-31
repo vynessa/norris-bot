@@ -1,0 +1,26 @@
+{
+  "name": "norris-bot",
+  "version": "1.0.0",
+  "description": "Norris bot is a slack bot that responds with a witty joke about Chuck Norris when a user in any channel mentions the name.",
+  "main": "lib/norrisbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vynessa/norris-bot.git"
+  },
+  "author": "Vanessa Ejikeme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vynessa/norris-bot/issues"
+  },
+  "homepage": "https://github.com/vynessa/norris-bot#readme",
+  "dependencies": {
+    "slackbots": "^0.3.0",
+    "sqlite3": "^3.1.13"
+  },
+  "devDependencies": {
+    "dotenv": "^5.0.1"
+  }
+}
